@@ -9,14 +9,41 @@
 
 </head>
 <body>
+  <section id="carrinho"
+   class="fixed top-0 right-[0px] bg-blue-400 h-screen w-[360px] text-slate-200 duration-200"
+   >
+   <div id="cabecalho-carrinho" class="flex justify-between m-4">
+    <p>Meu carrinho</p>
+    <button id="fechar-carrinho">X</button>
+
+  </div>
   
+  <section id="produtos-carrinho">
+<p>camisa do sao paulo</p>
+<p>camisa da adidas</p>
+<p>camisa do game of thrones</p>
+
+
+  </section>
+   
+   <p id="preco-total" > R$200</p>
+   <button class="bg-slate-200 text-slate-900 p-1">finalizar compra</button>
+   
+   
+  </section>
+  
+  
+
   <header class="flex bg-blue-400 p-2 justify-between">
     <img class="h-20"
     src="logo da marca/Logotipo Loja Online.jpg" alt="logo da Ray modas"
     />
     <div class="text-slate-200 flex gap-2 items-end mx-6" >
-      <button><i class="fa-solid fa-cart-shopping"></i></button>
-      <button><i class="fa-solid fa-user"></i></button>
+      
+      <button id="abrir-carrinho">
+        <i class="fa-solid fa-cart-shopping"></i> </button>
+      
+        <button> <i class="fa-solid fa-user"></i> </button>
     </div>
  
   </header>
@@ -28,6 +55,6 @@
   </main>
 
  
-  <script src="main.js"></script>
+  <script type="module" src="main.js"></script>
 </body>
 </html>

@@ -1,3 +1,5 @@
+import { inicializarCarrinho } from "./src/menuCarrinho";
+
 const catalogo = [{
     id: 1,
     nome: "camisa azul",
@@ -69,9 +71,9 @@ for (const produtoCatalogo of catalogo) {
 <img src="imagens de camisa/${produtoCatalogo.nomeArquivoImagem}" alt="imagens de camisa"
 style="height: 300px"
 />
-<p>${produtoCatalogo.marca}</p>
-<p>${produtoCatalogo.nome}</p>
-<p>R$${produtoCatalogo.preco},00</p>
+<p class="marca"> ${produtoCatalogo.marca} </p>
+<p>${produtoCatalogo.nome} </p>
+<p>R$${produtoCatalogo.preco}, 00</p>
 <button>Adicionar</button>
 
 
@@ -81,7 +83,6 @@ style="height: 300px"
 }
 
 
-
-
+inicializarCarrinho();
 
 
