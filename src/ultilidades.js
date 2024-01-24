@@ -1,5 +1,5 @@
 export const catalogo = [{
-    id: 1,
+    id: "1",
     nome: "camisa azul",
     marca: "Adidas",
     preco: 70,
@@ -7,7 +7,7 @@ export const catalogo = [{
 
 },
 {
-    id: 2,
+    id: "2",
     nome: "camisa social azul",
     marca: "Arames",
     preco: 80,
@@ -15,7 +15,7 @@ export const catalogo = [{
 
 },
 {
-    id: 3,
+    id: "3",
     nome: "camisa Adidas preta",
     marca: "Adidas",
     preco: 50,
@@ -23,7 +23,7 @@ export const catalogo = [{
 
 },
 {
-    id: 4,
+    id: "4",
     nome: "camisa ferrari vermelha",
     marca: "Ferrari",
     preco: 75,
@@ -31,7 +31,7 @@ export const catalogo = [{
 
 },
 {
-    id: 5,
+    id: "5",
     nome: "camisa Sao paulo",
     marca: "Adidas",
     preco: 200,
@@ -39,7 +39,7 @@ export const catalogo = [{
 
 },
 {
-    id: 6,
+    id: "6",
     nome: "camisa do Vasco",
     marca: "Nike",
     preco: 85,
@@ -47,7 +47,7 @@ export const catalogo = [{
 
 },
 {
-    id: 7,
+    id: "7",
     nome: "camisa game of thrones",
     marca: "HBO",
     preco: 78,
@@ -55,7 +55,7 @@ export const catalogo = [{
 
     },
     {
-        id: 8,
+        id: "8",
         nome: "camisa do Barcelona",
         marca: "Nike",
         preco: 98,
@@ -63,7 +63,7 @@ export const catalogo = [{
     
     },
     {
-        id: 9,
+        id: "9",
         nome: "Fone de ouvido JBL",
         marca: "JBL",
         preco: 150,
@@ -71,21 +71,21 @@ export const catalogo = [{
     
     },
     {
-        id: 10,
+        id: "10",
         nome: "Fone de ouvido micro",
         marca: "Apple",
         preco: 350,
         nomeArquivoImagem: "acess02.jpeg",
     
     },{
-        id: 10,
+        id: "11",
         nome: "Playstation 5 edicion Spider",
         marca: "SONY",
         preco: 4500,
         nomeArquivoImagem: "acess03.jpeg",
     
     },{
-        id: 11,
+        id: "12",
         nome: "Playstation 3",
         marca: "SONY",
         preco: 1500,
@@ -93,7 +93,7 @@ export const catalogo = [{
     
     },
     {
-        id: 12,
+        id: "13",
         nome: "XBOX One",
         marca: "Microsoft",
         preco: 2500,
